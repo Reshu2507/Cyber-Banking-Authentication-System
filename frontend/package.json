@@ -1,15 +1,12 @@
 {
-  "name": "otp-frontend",
-  "version": "0.1.0",
+  "name": "cyber-banking-frontend",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^7.9.4",
+    "react-router-dom": "^6.22.3",
+    "axios": "^1.6.8",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -20,8 +17,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
